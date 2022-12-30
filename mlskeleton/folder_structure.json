@@ -1,0 +1,54 @@
+{
+  "data": {
+    "raw": {
+    },
+    "processed": {
+    }
+  },
+  "models": {
+    "model_1.pkl": {},
+    "model_2.pkl": {}
+  },
+  "notebooks": {
+    "data_exploration.ipynb": {},
+    "model_training.ipynb": {},
+    "model_evaluation.ipynb": {}
+  },
+  "src": {
+    "data": {
+      "data_processing.py": {},
+      "data_cleaning.py": {}
+    },
+    "features": {
+      "feature_extraction.py": {},
+      "feature_selection.py": {}
+    },
+    "models": {
+      "model_training.py": {},
+      "model_evaluation.py": {}
+    },
+    "visualization": {
+      "visualizations.py": {}
+    },
+    "utils": {
+      "utils.py": {}
+    },
+    "tests": {
+      "test_data.py": {},
+      "test_features.py": {},
+      "test_visualization.py": {},
+      "test_models.py": {},
+      "test_utils.py": {}
+    },
+    "__init__.py": {},
+    "constants.py": {}
+  },
+    "reports": {
+    "figures": {},
+    "presentations": {},
+    "papers": {}
+  },
+  "requirements.txt": {},
+  ".gitignore": {},
+  "README.md": {}
+}
