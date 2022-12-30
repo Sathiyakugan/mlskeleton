@@ -15,7 +15,6 @@ download_url = 'https://github.com/asgardeo/mlskeleton/releases'
 keywords = [
     "machinelearning",
     "deeplearning",
-    "OIDC",
     "folderskeleton",
     "bootstraptemplate",
     "projecttemplate"
