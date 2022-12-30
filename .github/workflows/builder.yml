@@ -30,6 +30,7 @@ jobs:
     - name: Test packaging
       run: |
         # stop the build if there are tests that fail
+        pip install .
         python tests/test_generator.py
     - name: Bump version
       run: |
