@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        token: ${{ secrets.MLSKELETION_GITHUB_BOT_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
       if: github.repository == 'sathiyakugan/mlskeleton'
 
     - name: Set up Python
