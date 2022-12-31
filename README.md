@@ -1,4 +1,7 @@
 # mlskeleton
+![Builder](https://github.com/asgardeo/asgardeo-auth-python-sdk/workflows/Builder/badge.svg)
+[![Downloads](https://pepy.tech/badge/mlskeleton)](https://pepy.tech/project/mlskeleton)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python package that generates a folder structure for machine learning/deep learning projects.
 
