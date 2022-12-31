@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 name = 'mlskeleton'
-version = "0.0.2-dev0"
+version = "0.0.3-dev0"
 description = 'A Python package that generates a folder structure for machine learning/deep learning projects'
 author = 'Sathiyakugan B'
 author_email = 'sathiyakugan.bala@gmail.com'
