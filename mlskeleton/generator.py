@@ -1,7 +1,7 @@
 import json
 
 import os
-
+__location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 def create_folders_and_files(structure, parent_folder):
     for key, value in structure.items():
@@ -40,7 +40,7 @@ def main():
     args = parser.parse_args()
 
     # Generate the folder structure
-    json_file_path = "mlskeleton/folder_structure.json"
+    json_file_path = os.path.join(__location__, 'folder_structure.json')
     generate_folder_structure(args.root_folder, json_file_path=json_file_path)
 
 
